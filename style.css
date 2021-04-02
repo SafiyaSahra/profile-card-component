@@ -1,0 +1,138 @@
+body {
+    background-color: hsl(185, 75%, 39%);   
+}
+
+.main-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    margin: auto;
+}
+
+.bg-pattern-top {
+    position: fixed;
+    right: 52%;
+    bottom: 30%;
+}
+
+.bg-pattern-bottom {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+}
+
+
+/* Card */
+
+.profile-card {
+    margin: auto;
+    width: 350px;
+    height: 376px;
+    background-color: white;
+    position: relative;
+    z-index: 1000;
+    border-radius: 15px;
+    font-family: 'Kumbh Sans', sans-serif;
+    text-align: center;
+    box-shadow: 0 14px 28px hsl(185deg 90% 18% / 31%), 0 10px 10px rgb(25 162 174 / 19%);
+}
+
+
+/* Card Header */
+
+.profile-bg-img {
+    border-radius: 15px 15px 0 0;
+    margin: auto;
+}
+
+.profile-img-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    bottom: 55px;
+}
+
+.profile-img {
+    border: 4px solid #ffff;
+    border-radius: 50%;
+}
+
+/* Card Body */
+
+.card-body {
+    bottom: 55px;
+    position: relative;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.profile-name {
+    color: hsl(229, 23%, 23%);
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0;
+    padding-top: 20px;
+}
+
+.profile-live,.profile-name span {
+    font-weight: 400;
+    color: hsl(227, 10%, 46%);
+    margin-top: 10px;
+}
+.profile-live {
+    font-size: 14px;
+}
+
+/* Card Footer */
+
+.card-footer {
+    bottom: 50px;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 2px solid hsla(0, 0%, 59%, 0.294);
+    padding-top: 25px;
+}
+
+.card-footer-info {
+    text-align: center;
+}
+
+.info-count {
+    color: hsl(229, 23%, 23%);
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.info-detail {
+    font-size: 10px;
+    letter-spacing: 2px;
+    font-weight: 400;
+    color: hsl(227, 10%, 46%);
+}
+
+/* Footer Note */
+.attribution { 
+    color: rgba(255, 255, 255, 0.342);
+    position: fixed;
+    right: 25%;
+    left: 25%;
+    bottom: 3%;
+    font-size: 15px; 
+    font-family: 'Philosopher', sans-serif;
+    text-align: center; 
+}
+.attribution a { 
+    color: rgba(255, 255, 255, 0.342);
+    text-decoration: none;
+    font-family: 'Dancing Script', cursive;
+}
+.attribution a:hover {
+    color: rgba(245, 245, 245, 0.794);
+}
